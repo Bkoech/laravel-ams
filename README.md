@@ -67,6 +67,10 @@ _config/auth.php_
         ],
     ],
 
+Publish package files with <code>php artisan vendor:publish --provider="Wilgucki\LaravelAms\AmsServiceProvider"</code> command.
+
+Run migrations: <code>php artisan migrate</code> and seeder <code>php artisan db:seed --class=RoleSeeder</code>.
+
 Last step is to create _modules_ dir under root directory.
 
 ##Module structure
