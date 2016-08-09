@@ -135,10 +135,5 @@ class AmsServiceProvider extends ServiceProvider
         $this->app->register('Collective\Html\HtmlServiceProvider');
         $loader->alias('Form', 'Collective\Html\FormFacade');
         $loader->alias('Html', 'Collective\Html\HtmlFacade');
-
-        if ($this->app->environment('local')) {
-            $this->app->register('Barryvdh\Debugbar\ServiceProvider');
-            $this->app->register('Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider');
-        }
     }
 }
