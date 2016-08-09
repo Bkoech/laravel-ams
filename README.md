@@ -17,9 +17,9 @@ It uses [admin-lte-laravel](https://github.com/acacha/adminlte-laravel) package 
 
 ##Instalation
 
-At first you need to install _wilgucki/ams_ package.
+At first you need to install _wilgucki/laravel-ams_ package.
 
-<code>composer require wilgucki/ams</code>
+<code>composer require wilgucki/laravel-ams</code>
 
 Next add service provider to providers array and change auth provider.
 

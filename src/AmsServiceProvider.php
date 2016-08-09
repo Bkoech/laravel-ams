@@ -65,10 +65,6 @@ class AmsServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../database/factories' => database_path('factories'),
         ], 'migrations');
-
-        $this->publishes([
-            __DIR__.'/../database/seeds' => database_path('seeds'),
-        ], 'migrations');
     }
 
     protected function registerModules()
