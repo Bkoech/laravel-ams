@@ -73,6 +73,8 @@ Run migrations: <code>php artisan migrate</code> and seeder <code>php artisan db
 
 Last step is to create _modules_ dir under root directory.
 
+__If you encounter _class not found_ error at any step of instalation run <code>composer dump-autoload</code> command.__
+
 ##Module structure
 
 Modules are independed applications/packages from which you can build your "master" application. Module structure is
@@ -152,6 +154,10 @@ __SuperAdmin__
 This is a special role that is allowed to access _system_ tab. SuperAdmin can manage administrators, roles and modules.
 to create SuperAdmin, you need to alter _is_superadmin_ column in _admins_ table and set it to _true_. SuperAdmin is permited to
 access any action in every controller.
+
+__User registration__
+
+By default new users are registered with _Admin_ role. It's just a label, you can change it in _RoleSeeder_ class.
 
 ####Module instalation
 
