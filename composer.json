@@ -1,0 +1,19 @@
+{
+  "name": "wilgucki/ams",
+  "description": "Base module for Application Management System (AMS). It provides user authorisation, authentication, role management and module management.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maciej Wilgucki",
+      "email": "mwilgucki@gmail.com"
+    }
+  ],
+  "require": {
+    "laravelcollective/html": "^5.2"
+  },
+  "require-dev": {
+    "barryvdh/laravel-ide-helper": "^2.2",
+    "barryvdh/laravel-debugbar": "^2.2",
+    "acacha/admin-lte-template-laravel": "^2.0"
+  }
+}

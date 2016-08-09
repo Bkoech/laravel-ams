@@ -1,0 +1,2 @@
+@extends('ams::layouts.landing')
+
