@@ -2,6 +2,7 @@
   "name": "wilgucki/laravel-ams",
   "description": "Base module for Laravel Application Management System (AMS). It provides user authorization, authentication, role management and module management.",
   "license": "MIT",
+  "keywords": ["Laravel", "admin", "application", "management"],
   "authors": [
     {
       "name": "Maciej Wilgucki",
