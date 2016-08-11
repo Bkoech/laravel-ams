@@ -26,16 +26,16 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <title>{{ trans('ams::message.landingdescriptionpratt') }}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ asset('/vendor/ams/css/bootstrap.css') }}" rel="stylesheet">
+    <link href="/vendor/ams/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{ asset('/vendor/ams/css/main.css') }}" rel="stylesheet">
+    <link href="/vendor/ams/css/main.css" rel="stylesheet">
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-    <script src="{{ asset('/vendor/ams/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
-    <script src="{{ asset('/vendor/ams/js/smoothscroll.js') }}"></script>
+    <script src="/vendor/ams/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <script src="/vendor/ams/js/smoothscroll.js"></script>
 
 
 </head>
@@ -87,14 +87,14 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <div class="col-lg-2">
                 <h5>{{ trans('ams::message.amazing') }}</h5>
                 <p>{{ trans('ams::message.basedadminlte') }}</p>
-                <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/vendor/ams/img/arrow1.png') }}">
+                <img class="hidden-xs hidden-sm hidden-md" src="/vendor/ams/img/arrow1.png">
             </div>
             <div class="col-lg-8">
-                <img class="img-responsive" src="{{ asset('/vendor/ams/img/app-bg.png') }}" alt="">
+                <img class="img-responsive" src="/vendor/ams/img/app-bg.png" alt="">
             </div>
             <div class="col-lg-2">
                 <br>
-                <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/vendor/ams/img/arrow2.png') }}">
+                <img class="hidden-xs hidden-sm hidden-md" src="/vendor/ams/img/arrow2.png">
                 <h5>{{ trans('ams::message.awesomepackaged') }}</h5>
                 <p>... {{ trans('ams::message.by') }} <a href="http://acacha.org/sergitur">Sergi Tur Badenas</a> {{ trans('ams::message.at') }} <a href="http://acacha.org">acacha.org</a> {{ trans('ams::message.readytouse') }}</p>
             </div>
@@ -112,17 +112,17 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <br>
             <br>
             <div class="col-lg-4">
-                <img src="{{ asset('/vendor/ams/img/intro01.png') }}" alt="">
+                <img src="/vendor/ams/img/intro01.png" alt="">
                 <h3>{{ trans('ams::message.community') }}</h3>
                 <p>{{ trans('ams::message.see') }} <a href="https://github.com/acacha/adminlte-laravel">{{ trans('ams::message.githubproject') }}</a>, {{ trans('ams::message.post') }} <a href="https://github.com/acacha/adminlte-laravel/issues">{{ trans('ams::message.issues') }}</a> {{ trans('ams::message.and') }} <a href="https://github.com/acacha/adminlte-laravel/pulls">{{ trans('ams::message.pullrequests') }}</a></p>
             </div>
             <div class="col-lg-4">
-                <img src="{{ asset('/vendor/ams/img/intro02.png') }}" alt="">
+                <img src="/vendor/ams/img/intro02.png" alt="">
                 <h3>{{ trans('ams::message.schedule') }}</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
             <div class="col-lg-4">
-                <img src="{{ asset('/vendor/ams/img/intro03.png') }}" alt="">
+                <img src="/vendor/ams/img/intro03.png" alt="">
                 <h3>{{ trans('ams::message.monitoring') }}</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
@@ -140,7 +140,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <br>
             <br>
             <div class="col-lg-6 centered">
-                <img class="centered" src="{{ asset('/vendor/ams/img/mobile.png') }}" alt="">
+                <img class="centered" src="/vendor/ams/img/mobile.png" alt="">
             </div>
 
             <div class="col-lg-6">
@@ -227,10 +227,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="{{ asset('/vendor/ams/img/item-01.png') }}" alt="">
+                            <img src="/vendor/ams/img/item-01.png" alt="">
                         </div>
                         <div class="item">
-                            <img src="{{ asset('/vendor/ams/img/item-02.png') }}" alt="">
+                            <img src="/vendor/ams/img/item-02.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -296,7 +296,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
+<script src="/vendor/ams/js/bootstrap.min.js" type="text/javascript"></script>
 <script>
     $('.carousel').carousel({
         interval: 3500
